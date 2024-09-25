@@ -1,0 +1,44 @@
+[
+    {
+    "id": 1,
+    "Nombre": "Arenero Gato Adulto",
+    "descripcion": "Disponible en varios colores",
+    "imageUrl": "../assets/arenero.jpg",
+    "precio": 35000
+    },
+    {
+    "id": 2,
+    "Nombre": "Comedero Gato Adulto",
+    "descripcion": "Disponible en varios colores",
+    "imageUrl": "../assets/comedero.jpeg",
+    "precio": 25000
+    },
+    {
+    "id": 3,
+    "Nombre": "Varita de Raton",
+    "descripcion": "Disponible en varios modelos",
+    "imageUrl": "../assets/varita_raton.jpg",
+    "precio": 10000
+    },
+    {
+    "id": 4,
+    "Nombre": "Cama Gato Adulto",
+    "descripcion": "Disponible en varios colores",
+    "imageUrl": "../assets/cama-gata-adulto.png",
+    "precio": 35000
+    },
+    {
+    "id": 5,
+    "Nombre": "Bebedero",
+    "descripcion": "Disponible en varios colores",
+    "imageUrl": "../assets/bebedero.png",
+    "precio": 30000
+    },
+    {
+    "id": 6,
+    "Nombre": "Rascador Doble Nivel",
+    "descripcion": "Stock Disponible",
+    "imageUrl": "../assets/rascador.png",
+    "precio": 75000
+    }
+]

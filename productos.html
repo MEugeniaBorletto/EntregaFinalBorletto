@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>MeowShop</title>
+</head>
+<body>
+    <header>
+    <div class="flex-container">
+        <nav class="navbar">
+        <div class="logo">
+            <img
+            src="./Assets/Logo/3.png"
+            alt=""
+            />
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="../index.html">Inicio</a></li>
+            <li>
+            <a href="./productos.html">Productos</a>
+            </li>
+            
+        </ul>
+        </nav>
+    </div>
+</header>
+    <h2>NUESTROS PRODUCTOS</h2>
+
+
+
+    <div class="cardContainer" id="contenedorDeCartas"></div>
+    <h2>CARRITO DE COMPRAS</h2>
+    <button type="button" id="mostarCarro" class="nuevoBtnCarro">
+        &#128722
+    </button>
+    <div class="mostrarCarrito" id="carritoContainer">
+
+    </div>
+
+    <div class="botonCompra">
+        <button class="confirmarBoton" id="buttonConfirm">Confirmar Compra</button>
+        </div>
+        <div class="totalCompra" id ="totalCompra">
+    
+        </div>
+        <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-description">
+            <p>MeowShop 2024 ©</p>
+            <p>Indumentaria y accesorios para gatos</p>
+        </div>
+        </div>
+    </footer>
+
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <Script src="./productosfetch.js"></Script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
